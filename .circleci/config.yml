@@ -24,7 +24,7 @@ jobs:
       - checkout
 
       - store_artifacts:
-          path: ./out/artifacts/JMusicBot_jar/*.jar
+          path: ~/repo/out/artifacts/JMusicBot_jar/*.jar
 
       # Download and cache dependencies
       - restore_cache:
